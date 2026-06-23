@@ -1,0 +1,28 @@
+body { background-image: url('/img/deepslate.png'); }
+img { width:100%; }
+h1 { color: aquamarine; text-shadow: 2px 2px rgb(67, 190, 149); text-align: center; font-size: 200%; font-family: Georgia, 'Times New Roman', Times, serif }
+h2 { color: rgb(67, 190, 149); text-shadow: 2px 2px rgb(38, 145, 109); text-align: center; font-size: 175%; }
+h3 { color: white; font-size: 150%; text-decoration: underline; background-color: rgb(45, 61, 65); font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-align: center; }
+h4 { color: white; font-size: 125%; font-weight: lighter; font-family: Arial, Helvetica, sans-serif; }
+p { color: white; font-size: 100%; font-family: Arial, Helvetica, sans-serif; }
+a:link { color: aquamarine; background-color: transparent; text-decoration: none; font-family: Arial, Helvetica, sans-serif; }
+a:visited { color: cornflowerblue; background-color: transparent; text-decoration: none; font-family: Arial, Helvetica, sans-serif; }
+a:hover { color: aquamarine; background-color: transparent; text-decoration: underline; font-family: Arial, Helvetica, sans-serif; }
+a:active { color: aqua; background-color: transparent; text-decoration: underline; font-family: Arial, Helvetica, sans-serif; }
+dl { color: white; font-family: Arial, Helvetica, sans-serif; }
+form { color: white; font-family: Arial, Helvetica, sans-serif; }
+.button { border: none; color: white; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; transition-duration: 0.4s; cursor: pointer; border-radius: 4px; }
+.button2 span { cursor: pointer; display: inline-block; position: relative ; transition: 0.5s; }
+.button2 span:after { content: '\00bb'; position: absolute; opacity: 0; top: 0; right: -10px; transition: 0.5s; }
+.button2:hover span { padding-right: 15px; }
+.button2:hover span:after { opacity: 1; right: 0; }
+.submit { border: none; color: white; padding: 10px; width: 200px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 5px; transition-duration: 0.4s; cursor: pointer; border-radius: 4px; transition: all 0.5s; }
+.button1 { background-color: transparent ; color: white; border: 2px solid #52bdfc; }
+.button1:hover { background-color: #52bdfc; color: black; }
+.button2 { background-color: transparent; color: white; border: 2px solid greenyellow; }
+.button2:hover { background-color: greenyellow; color: black; }
+div { border: white 2px solid; display: inline-block; padding: 6px 24px; background-color: rgb(45, 61, 65); }
+li { list-style-type: square; }
+.reduced { width: 25%; transition: width 0.3s; }
+.reduced2 { width: 25%; transition: width 0.3s; }
+.reduced:hover { width: 30%; }

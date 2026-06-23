@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<!-- For a future project. Do not distribute. -->
+<html>
+<head>
+  <title>Sample HTML File</title>
+  <link rel="icon" type="image/icon" href="/img/pfnhs-ict-19372abd-e42c-4c4c-92de-fbc314f1152c.jpg">
+  <link rel="stylesheet" href="/styles/styles.css">
+  <script src="/js/functions.js"></script>
+</head>
+<body>
+  <h1>Sample HTML File</h1>
+  <h2><i>By xMiraiMeteor</i></h2>
+  <div>
+    <h3>Contents</h3>
+      <ul>
+        <li><a href="#para">Paragraph</a></li>
+        <li><a href="#links">Links</a></li>
+        <li><a href="#images">Images</a></li>
+        <li><a href="#buttons">Buttons</a></li>
+        <li><a href="#lists">Lists</a></li>
+        <li><a href="#forms">Forms</a></li>
+        <li><a href="#form_elements">Form Elements</a></li>
+      </ul>
+  </div>
+  <h3 id="para">Paragraphs</h3>
+  <h4>Some examples of paragraphs:</h4>
+  <p>Here are the results:<br><br>No, there are NO results...<br><br>Just give up, there's nothing here...</p>
+  <h3 id="links">Links</h3>
+  <h4>Some examples of links:</h4>
+  <p>A video tutorial on how to cook eggs: <a id="alert" onclick="testFunction3()" title="Easy as 1, 2, 3!" href="https://youtu.be/dQw4w9WgXcQ?si=-5HPfwEYilW7ZcW6" target="_blank">EASY & SIMPLE! How to cook eggs for BEGINNERS!</a></p>
+  <p>My Facebook profile: <a id="alert" onclick="testFunction3()" title="Mirai Meteor on Facebook" href="https://web.facebook.com/mirai.meteor.10" target="_blank">Mirai Meteor</a></p>
+  <p>Yugipedia: <a id="alert" onclick="testFunction3()" title="Yugipedia - The most up-to-date Yu-Gi-Oh! Wiki in the world" href="https://yugipedia.com/wiki/Yugipedia" target="_blank">Yugipedia</a></p>
+  <h3 id="images">Images</h3>
+  <h4>Example images:</h4>
+  <img class="reduced" src="/img/1304146.png" alt="An image">
+  <img class="reduced" src="/img/120842993_p0.jpg" alt="An image">
+  <img class="reduced" src="/img/Little Witch Academia.jpg" alt="An image">
+  <h3 id="buttons">Buttons</h3>
+  <h4>An example of 2 buttons:</h4>
+  <button class="button button1" onclick="document.getElementById('screenshot').src='/img/01ba3df6-c734-ac11-457e-b2c10f6169e2.jpeg'">Ka-</button>
+  <img id="screenshot" src="/img/01ba3df6-c734-ac11-457e-b2c10f6169e2.jpeg" style="width:25%" alt="Kadoosh 1">
+  <button class="button button1" onclick="document.getElementById('screenshot').src='/img/d4fa4f46-f207-492a-a8ae-5a423d4a0124.jpeg'">-doosh!</button>
+  <h4>More buttons:</h4>
+  <button id="off" class="button button1" type="button" onclick="testFunction()">Reveal</button>
+  <button id="on" class="button button1" type="button" onclick="testFunction2()" style="display: none;">Undo</button>
+  <img class="reduced2" src="/img/1107308.jpg" id="imager" style="display: none;">
+  <h3 id="lists">Lists</h3>
+  <h4>An example of a list:</h4>
+  <dl>
+    <dt><a id="alert" onclick="testFunction3()" href="https://yugipedia.com/wiki/Polymerization">Polymerization</a></dt>
+    <dd>- Fusion Summon 1 Fusion Monster from your Extra Deck, using monsters from your hand or field as material.</dd>
+    <dt><a id="alert" onclick="testFunction3()" href="https://yugipedia.com/wiki/Raigeki">Raigeki</a></dt>
+    <dd>- Destroy all monsters your opponent controls.</dd>
+    <dt><a id="alert" onclick="testFunction3()" href="https://yugipedia.com/wiki/Harpie%27s_Feather_Duster">Harpie's Feather Duster</a></dt>
+    <dd>- Destroy all Spells and Traps your opponent controls.</dd>
+    <dt><a id="alert" onclick="testFunction3()" href="https://yugipedia.com/wiki/Pot_of_Greed">Pot of Greed</a></dt>
+    <dd>- Draw 2 cards.</dd>
+    <dt><a id="alert" onclick="testFunction3()" href="https://yugipedia.com/wiki/Toon_World">Toon World</a></dt>
+    <dd>- Activate this card by paying 1000 LP.</dd>
+    <dt><a id="alert" onclick="testFunction3()" href="https://yugipedia.com/wiki/Twin_Twisters">Twin Twisters</a></dt>
+    <dd>- Discard 1 card, then target up to 2 Spells/Traps on the field; destroy them.</dd>
+    <dt><a id="alert" onclick="testFunction3()" href="https://yugipedia.com/wiki/Swords_of_Revealing_Light">Swords of Revealing Light</a></dt>
+    <dd>- After this card's activation, it remains on the field, but you must destroy it during the End Phase of your opponent's 3rd turn. When this card is activated: If your opponent controls a face-down monster, flip all monsters they control face-up. While this card is face-up on the field, your opponent's monsters cannot declare an attack.</dd>
+    <dt><a id="alert" onclick="testFunction3()" href="https://yugipedia.com/wiki/Change_of_Heart">Change of Heart</a></dt>
+    <dd>- Target 1 monster your opponent controls; take control of it until the End Phase.</dd>
+  </dl>
+  <h3 id="forms">Forms</h3>
+  <h4>An example of a Text, E-mail and Password forms:</h4>
+  <form>
+    <label for="learnername">Enter your name:</label>
+    <input type="text" id="learnername" name="learnername" placeholder="Your name..." required><br><br>
+    <label for="email">Enter your Email Address:</label>
+    <input type="email" id="learneremail" name="learneremail" placeholder="Your e-mail address..." required><br><br>
+    <label for="password">Password:</label>
+    <input type="password" id="learnerpassword" name="learnerpassword" placeholder="Your password..." required><br><br>
+    <button type="submit" class="submit button2" style="vertical-align: middle;"><span>Submit </span></button>
+  </form><br>
+  <h4>Some examples of Radio Buttons:</h4>
+  <p>Select your preferred strand that you want to enroll in:</p>
+  <form>
+    <input type="radio" id="stem" name="current_strand" value="STEM" required>
+    <label for="stem">Science, Technology, Engineering, and Mathematics (STEM)</label><br>
+    <input type="radio" id="abm" name="current_strand" value="ABM" required>
+    <label for="abm">Accountancy, Business and Management (ABM)</label><br>    
+    <input type="radio" id="humss" name="current_strand" value="HUMSS" required>
+    <label for="humss">Humanities and Social Sciences (HUMSS)</label><br>
+    <input type="radio" id="he" name="current_strand" value="HE" required>
+    <label for="he">Home Economics (HE)</label><br>
+    <input type="radio" id="ict" name="current_strand" value="ICT" required>
+    <label for="ict">Information and Communications Technology (ICT)</label><br><br>
+    <button type="submit" class="submit button2" style="vertical-align: middle;"><span>Submit </span></button>
+  </form><br>
+  <h4>An example of a Dropdown form:</h4>
+  <form>
+    <label for="gender">Gender:</label>
+    <select name="gender" id="gender" required>
+      <option value="ch1">Male</option>
+      <option value="ch2">Female</option>
+      <option id="otheropt" value="ch3">Other</option>
+    </select><br><br>
+    <button type="submit" class="submit button2" style="vertical-align: middle;"><span>Submit </span></button>
+  </form><br>
+  <h4>An example of a Text Field:</h4>
+  <form>
+    <label for="goal">What is your goal for this school year?</label><br>
+    <textarea name="goal" id="goal" cols="30" rows="10" placeholder="Your goal..." required></textarea><br><br>
+    <button type="submit" class="submit button2" style="vertical-align: middle;"><span>Submit </span></button>
+  </form>
+</body>
+</html>
